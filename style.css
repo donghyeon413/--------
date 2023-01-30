@@ -1,0 +1,46 @@
+.filterContainer{
+  border: 1px black solid;
+}
+
+ul, li{
+  list-style: none;
+}
+
+.foodlistContainer{
+  border: 1px black solid;
+}
+
+/* .foodnavbox{
+  border: 1px black solid;
+} */
+
+.foodtotal{
+  border: 1px black solid;
+}
+
+.foodNav{
+  border: 1px black solid;
+}
+
+.food-information{
+  text-decoration:none;
+}
+
+.products a{
+  text-decoration: none;
+  color: black;
+  float: left;
+  font-size: 16px;
+}
+
+.box-container{
+  border: 1px black solid;
+}
+
+.grid-container{
+  display: grid;
+  grid-template:
+  [row-1-start] "header header header header" 100px [row-1-end]
+  [row-2-start] "footer footer footer footer" 100px [row-2-end]
+  / auto 200px auto;
+}
